@@ -1,0 +1,38 @@
+{
+  "name": "dependency-fetcher",
+  "version": "1.0.0",
+  "description": "Get all the dependencies of a github repository",
+  "author": {
+    "name": "Rocktim Saikia",
+    "email": "srocktim61@gmail.com",
+    "url": "https://rocktim.now.sh"
+  },
+  "keywords": [
+    "dependencies"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RocktimSaikia/dependency-fetcher.git"
+  },
+  "homepage": "https://github.com/RocktimSaikia/dependency-fetcher#readme",
+  "bugs": {
+    "url": "https://github.com/RocktimSaikia/dependency-fetcher/issues"
+  },
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha",
+    "test:ex": "node examples/"
+  },
+  "files": [
+    "lib",
+    "src"
+  ],
+  "devDependencies": {
+    "isomorphic-unfetch": "^3.0.0",
+    "mocha": "^6.2.2"
+  },
+  "engines": {
+    "node": ">=8"
+  }
+}
