@@ -28,8 +28,10 @@
     "lib",
     "src"
   ],
+  "dependencies": {
+    "isomorphic-unfetch": "^3.0.0"
+  },
   "devDependencies": {
-    "isomorphic-unfetch": "^3.0.0",
     "mocha": "^6.2.2"
   },
   "engines": {
