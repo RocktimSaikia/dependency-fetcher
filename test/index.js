@@ -13,22 +13,26 @@ describe("Decode", () => {
 
 describe("Fetch package.json", () => {
   it("should return 64encoded string", () => {
-    return getData("RocktimSaikia", "portfolio-v1");
+    return getData("RocktimSaikia", "git-job");
   });
 });
 
 describe("Get the dependencies", () => {
   it("should return object of npm packages", async () => {
-    const mockObj = [
-      { package: "@emotion/core", version: "^10.0.22" },
-      { package: "isomorphic-unfetch", version: "^3.0.0" },
-      { package: "next", version: "^9.1.1" },
-      { package: "react", version: "^16.11.0" },
-      { package: "react-dom", version: "^16.11.0" },
-      { package: "react-reveal", version: "^1.2.2" },
-      { package: "react-spinners", version: "^0.6.1" }
-    ];
-    const data = await getDependencies("RocktimSaikia", "portfolio-v1");
+    const mockObj = {
+      dependencies: [
+        { package: "axios", version: "0.18.1" },
+        { package: "chalk", version: "2.4.2" },
+        { package: "meow", version: "5.0.0" },
+        { package: "striptags", version: "3.1.1" }
+      ],
+      devDependencies: [
+        { package: "eslint", version: "5.16.0" },
+        { package: "eslint-config-airbnb-base", version: "13.2.0" },
+        { package: "eslint-plugin-import", version: "2.18.2" }
+      ]
+    };
+    const data = await getDependencies("RocktimSaikia", "git-job");
     assert.deepEqual(data, mockObj);
   });
 });
