@@ -1,6 +1,10 @@
 "use strict";
-const getDependencies = require("../src/index");
+const {
+  getAllDependencies,
+  getDependencies,
+  getDevDependencies
+} = require("../src/index");
 
-getDependencies("RocktimSaikia", "git-job").then(res => {
+getAllDependencies("RocktimSaikia", "git-job", "_desc").then(res => {
   console.log(res);
 });
