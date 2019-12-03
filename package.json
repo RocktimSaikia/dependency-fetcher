@@ -8,7 +8,9 @@
     "url": "https://rocktim.now.sh"
   },
   "keywords": [
-    "dependencies"
+    "dependencies",
+    "get dependencies",
+    "dev-dependencies"
   ],
   "license": "MIT",
   "repository": {
