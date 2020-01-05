@@ -35,7 +35,7 @@
     "isomorphic-unfetch": "^3.0.0"
   },
   "devDependencies": {
-    "mocha": "^6.2.2"
+    "mocha": "^7.0.0"
   },
   "engines": {
     "node": ">=8"
