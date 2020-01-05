@@ -48,7 +48,7 @@ describe("Get the all dependencies", () => {
       devDependencies: [
         {
           package: "mocha",
-          version: "6.2.2",
+          version: "7.0.0",
           description: "simple, flexible, fun test framework"
         }
       ]
@@ -88,7 +88,7 @@ describe("Get the dev-dependencies", () => {
     const mockObj = [
       {
         package: "mocha",
-        version: "6.2.2",
+        version: "7.0.0",
         description: "simple, flexible, fun test framework"
       }
     ];
