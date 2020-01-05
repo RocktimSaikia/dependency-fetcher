@@ -1,6 +1,6 @@
 {
   "name": "dependency-fetcher",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Get all the dependencies of a github repository",
   "author": {
     "name": "Rocktim Saikia",
