@@ -1,6 +1,6 @@
 # dependency-fetcher
 
-![Travis (.org) branch](https://img.shields.io/travis/RocktimSaikia/dependency-fetcher/master?style=for-the-badge) ![David](https://img.shields.io/david/RocktimSaikia/dependency-fetcher?style=for-the-badge) ![David](https://img.shields.io/david/dev/RocktimSaikia/dependency-fetcher?style=for-the-badge) ![npm](https://img.shields.io/npm/v/dependency-fetcher?style=for-the-badge) ![GitHub](https://img.shields.io/github/license/RocktimSaikia/dependency-fetcher?style=for-the-badge)
+![Travis (.org) branch](https://img.shields.io/travis/RocktimSaikia/dependency-fetcher/master?style=for-the-badge) ![David](https://img.shields.io/david/RocktimSaikia/dependency-fetcher?style=for-the-badge) ![npm](https://img.shields.io/npm/v/dependency-fetcher?style=for-the-badge) ![GitHub](https://img.shields.io/github/license/RocktimSaikia/dependency-fetcher?style=for-the-badge)
 
 > Get all the dependencies and dev-dependencies of a github repository.
 
